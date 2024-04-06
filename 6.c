@@ -1,6 +1,6 @@
 //WAP to compare two string with and without using a library function
 #include<string.h>
-#include<string.h>
+#include<stdio.h>
 int main(){
     char str1[1000];
     char str2[1000];
@@ -31,5 +31,5 @@ int main(){
         printf("In the alphabetical order first string will be before the second string.\n");
     else
         printf("Both strings are same.\n");
-
+    return 0;
 }

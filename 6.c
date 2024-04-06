@@ -31,5 +31,6 @@ int main(){
         printf("In the alphabetical order first string will be before the second string.\n");
     else
         printf("Both strings are same.\n");
+return 0;
 
 }

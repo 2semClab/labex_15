@@ -1,6 +1,6 @@
 //WAP to compare two string with and without using a library function
 #include<string.h>
-#include<string.h>
+#include<stdio.h>
 int main(){
     char str1[1000];
     char str2[1000];

@@ -29,7 +29,7 @@ int main(){
     printf("\nWithout using library functions :\n");
     if(flag == 1)
         printf("In the alphabetical order first string will be after the second string.\n");
-    else if(flag = 0)
+    else if(flag == -1)
         printf("In the alphabetical order first string will be before the second string.\n");
     else
         printf("Both strings are same.\n");
@@ -38,7 +38,7 @@ int main(){
     int comp = strcmp(str1,str2);
     if(comp >0)
          printf("In the alphabetical order first string will be after the second string.\n");
-    else if(comp=0)
+    else if(comp == 0)
         printf("Both strings are same.\n");
     else
         printf("In the alphabetical order first string will be before the second string.\n");
